@@ -1,0 +1,483 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto' sans-serif;
+  margin: 0;
+  width: 1280px;
+  height: auto;
+  padding: 0;
+}
+
+/* Bubbles */
+
+#bubbletext {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  margin-left: 61px;
+  margin-top: 76px;
+}
+
+.item-bubble1 {
+  background-color: #FFC6C6;
+  width: 764px;
+  height: 320px;
+  z-index: 3;
+  left: 431px;
+  top: 0px;
+  position: absolute;
+  justify-content: center;
+  margin: 0;
+}
+
+
+.item-bubble2 {
+  background-color: #FFFF;
+  width: 429px;
+  height: 160px;
+  z-index: 4;
+  left: 235px;
+  top: 480px;
+  position: absolute;
+  justify-content: center;
+}
+
+
+.triangle1 {
+  position: absolute;
+  left: 10px;
+  top: 17em;
+  z-index: 19;
+  display: inline-block;
+}
+
+.triangle2 {
+  position: absolute;
+  left: 18em;
+  top: 7em;
+  z-index: 20;
+  display: inline-block;
+}
+
+.triangle3 {
+  position: absolute;
+  left: 3.2em;
+  top: 7em;
+  z-index: 21;
+  display: inline-block;
+}
+
+.triangle4 {
+  position: absolute;
+  left: 28em;
+  top: 16em;
+  z-index: 101;
+  display: inline-block;
+}
+
+.triangle5 {
+  position: absolute;
+  left: 800px;
+  top: 1666,29px;
+  z-index: 120;
+  display: inline-block;
+}
+
+.triangle6 {
+  position: absolute;
+  left: 370px;
+  top: 1813,1px;
+  z-index: 100;
+  display: inline-block;
+}
+
+.triangle7 {
+  position: absolute;
+  left: 42em;
+  top: 2074,2px;
+  z-index: 25;
+  display: inline-block;
+}
+
+.item-bubble3 {
+  background-color: #FFC6C6;
+  width: 427px;
+  height: 160px;
+  z-index: 5;
+  left: 693px;
+  top: 640px;
+  position: absolute;
+  justify-content: center;
+}
+
+.item-bubble4 {
+  background-color: #FFC6C6;
+  width: 894px;
+  height: 320px;
+  z-index: 90;
+  left: 321px;
+  top: 960px;
+  position: absolute;
+  justify-content: center;
+}
+
+.item-bubble5 {
+  background-color: #FFFF;
+  width: 897px;
+  height: 320px;
+  z-index: 7;
+  left: 159px;
+  top: 1280px;
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
+}
+
+.item-bubble6 {
+  background-color: #FFC6C6;
+  width: 674px;
+  height: 160px;
+  z-index: 80;
+  left: 321px;
+  top: 1600px;
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
+}
+
+.item-bubble7 {
+  background-color: #FFFF;
+  width: 893px;
+  height: 248px;
+  z-index: 50;
+  left: 161px;
+  top: 1760px;
+  display: inline-block;
+  position: absolute;
+  justify-content: center;
+}
+
+
+/* Squares flex*/
+
+.littlesquares {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+
+.littlesquare {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+ .line1 {
+width: 100%;
+height: 320px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+position: relative;
+}
+
+ .line2 {
+   width: 100%;
+   height: 320px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   position: relative;
+ }
+
+.bigsquare {
+  width: 320px;
+  height: 320px;
+}
+
+/* Images */
+.image1 {
+  position: absolute;
+  width: 64.23px;
+  height: 94px;
+  justify-content: center;
+  display: inline-block;
+  align-items: center;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+  animation-name: whiteladya;
+  animation-duration: 2s;
+  animation-play-state: paused;
+}
+
+.whiteladya {
+height: 160px;
+width: 640px;
+}
+
+.whiteladya:hover {
+animation-play-state: running;
+}
+
+@keyframes whiteladya {
+  0% {top: 1em; left: 0.2em;}
+  33% {top: 1em; left: 1.2em; }
+  100% {top: 1em; left: 2em; }
+}
+
+.image2 {
+  position: relative;
+  width: 81px;
+  height: 79.15px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+  animation-name: koroleva;
+  animation-duration: 4s;
+  animation-play-state: paused;
+}
+
+.image2:hover {
+  animation-play-state: running;
+}
+
+@keyframes koroleva {
+  0% {top: 2.1em; left: 2.5em;}
+    33% {top: 1px; left: 2.5px; }
+    66% {top: .1px; left: 2.5px; }
+    100% {top: .01px; left: 2px; }
+}
+
+#image3 {
+  position: relative;
+  width: 141.46px;
+  height: 215.3px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 80px);
+  top: calc(50% - 110px);
+  animation-name: rotateimage3;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+#image3:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage3 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+
+
+#image4 {
+  position: relative;
+  width: 220.17px;
+  height: 215.15px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 110px);
+  top: calc(50% - 100px);
+  animation-name: rotateimage4;
+  animation-duration: 1s;
+  animation-play-state: paused;
+
+}
+
+
+#image4:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage4 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image5 {
+  position: relative;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 90px);
+  top: calc(50% - 100px);
+  animation-name: rotateimage5;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image5:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage5 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image6 {
+  position: relative;
+  width: 141.46px;
+  height: 215.3px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 76px);
+  top: calc(50% - 110px);
+  animation-name: rotateimage6;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image6:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage6 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image7 {
+  position: relative;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 94px);
+  top: calc(50% - 110px);
+  animation-name: rotateimage7;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image7:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage7 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image8 {
+  position: relative;
+  width: 185.57px;
+  height: 215.41px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 90px);
+  top: calc(50% - 110px);
+  animation-name: rotateimage8;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image8:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage8 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image9 {
+  position: relative;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 76px);
+  top: calc(50% - 130px);
+  animation-name: rotateimage9;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image9:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage9 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image10 {
+  position: relative;
+  width: 220.17px;
+  height: 215.15px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 108px);
+  top: calc(50% - 150px);
+  animation-name: rotateimage10;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+
+
+#image10:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage10 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
+#image11 {
+  position: relative;
+  width: 60.78px;
+  height: 75.08px;
+  justify-self: center;
+  display: inline-block;
+  align-items: center;
+  left: calc(50% - 36px);
+  top: calc(50% - 40px);
+
+}
+
+#image12 {
+  position: relative;
+  width: 70.3px;
+  height: 68.69px;
+  justify-content: center;
+  display: inline-block;
+  align-self: center;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+
+}
+
+.lastsquares {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  display: flex;
+}
+
+.basmannaya {
+  position: relative;
+  width: 300px;
+  z-index: 17;
+}
+
+.phonenumber {
+  position: absolute;
+  width: 186px;
+  z-index: 18;
+}
+.zhdyom {
+  position: absolute;
+  width: 778px;
+  z-index: 19;
+}
