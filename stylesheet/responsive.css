@@ -24,8 +24,10 @@
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
 h1 {
-  justify-self: center;
+
     font-size: 1.5rem;
+    margin-left: 16px;
+    margin-top: 20px;
   }
 
   .item-bubble1 {
