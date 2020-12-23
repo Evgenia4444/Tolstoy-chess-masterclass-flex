@@ -197,6 +197,7 @@ position: relative;
  }
 
 .bigsquare {
+  position: relative;
   width: 320px;
   height: 320px;
 }
@@ -211,6 +212,7 @@ position: relative;
   align-items: center;
   left: calc(50% - 40px);
   top: calc(50% - 40px);
+  z-index: 150;
   animation: whiteladya 2s linear infinite;
   animation-play-state: paused;
 }
@@ -255,7 +257,7 @@ animation-play-state: running;
 }
 
 #image3 {
-  position: relative;
+  position: absolute;
   width: 141.46px;
   height: 215.3px;
   justify-content: center;
@@ -279,7 +281,7 @@ animation-play-state: running;
 
 
 #image4 {
-  position: relative;
+  position: absolute;
   width: 220.17px;
   height: 215.15px;
   justify-content: center;
@@ -303,7 +305,7 @@ animation-play-state: running;
 }
 
 #image5 {
-  position: relative;
+  position: absolute;
   justify-content: center;
   display: inline-block;
   left: calc(50% - 90px);
@@ -324,7 +326,7 @@ animation-play-state: running;
 }
 
 #image6 {
-  position: relative;
+  position: absolute;
   width: 141.46px;
   height: 215.3px;
   justify-content: center;
@@ -347,7 +349,7 @@ animation-play-state: running;
 }
 
 #image7 {
-  position: relative;
+  position: absolute;
   justify-content: center;
   display: inline-block;
   left: calc(50% - 94px);
@@ -368,7 +370,7 @@ animation-play-state: running;
 }
 
 #image8 {
-  position: relative;
+  position: absolute;
   width: 185.57px;
   height: 215.41px;
   justify-content: center;
@@ -391,7 +393,7 @@ animation-play-state: running;
 }
 
 #image9 {
-  position: relative;
+  position: absolute;
   justify-content: center;
   display: inline-block;
   left: calc(50% - 76px);
@@ -412,7 +414,7 @@ animation-play-state: running;
 }
 
 #image10 {
-  position: relative;
+  position: absolute;
   width: 220.17px;
   height: 215.15px;
   justify-content: center;
