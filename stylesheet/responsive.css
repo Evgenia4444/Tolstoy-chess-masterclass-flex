@@ -103,15 +103,17 @@ h1 {
 }
 
 /* iphone se */
-@media only screen  and (max-device-width: 375px)  {
+@media only screen and (max-device-width: 375px)  {
 
   #bubbletext {
     font-size: 24px;
     padding: 0;
   }
-
+.ls {
+  display: none;
+}
   .littlesquares {
-    width: 80px;
+    width: 100vw;
     height: 80px;
   }
 
@@ -158,38 +160,13 @@ h1 {
     width: 160px;
     height: 160px;
   }
+.bs {
+  display: none;
+}
 
-  .bigsquare3 {
-    display: none;
-  }
-  .bigsquare4 {
-    display: none;
-  }
-  .bigsquare7 {
-    display: none;
-  }
-  .bigsquare8 {
-    display: none;
-  }
-  #bubble1 {
-  width: 320px;
-  }
-  #bubble2 {
-  width: 320px;
-  }
-  #bubble3 {
-  width: 320px;
-  }
-  #bubble4 {
-  width: 320px;
-  }
-#bubble5 {
-width: 320px;
+img {
+  content: fit;
 }
-#bubble6 {
-width: 320px;
-}
-#bubble7 {
-width: 320px;
-}
+
+
 }
