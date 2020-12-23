@@ -101,3 +101,94 @@ h1 {
     height: 192px;
   }
 }
+
+/* iphone se */
+@media only screen  and (max-device-width: 375px)  {
+
+  #bubbletext {
+    font-size: .75em;
+  }
+
+  .littlesquares {
+    width: 100vw;
+    height: 80px;
+  }
+
+  .littlesquare {
+    width: 80px;
+    height: 80px;
+  }
+
+  .item-bubble1 {
+    width: 217px;
+    height: 91px;
+  }
+  .item-bubble2 {
+    width: 126px;
+    height: 47px;
+  }
+
+  .item-bubble3 {
+    width: 125px;
+    height: 47px;
+  }
+
+  .item-bubble4 {
+    width: 230px;
+    height: 91px;
+  }
+
+  .item-bubble5 {
+    width: 251px;
+    height: 91px;
+  }
+
+  .item-bubble6 {
+    width: 177px;
+    height: 47px;
+  }
+
+  .item-bubble7 {
+    width: 535px;
+    height: 149px;
+  }
+
+  .bigsquare {
+    width: 160px;
+    height: 160px;
+  }
+
+  .bigsquare3 {
+    display: none;
+  }
+  .bigsquare4 {
+    display: none;
+  }
+  .bigsquare7 {
+    display: none;
+  }
+  .bigsquare8 {
+    display: none;
+  }
+  #bubble1 {
+  width: 320px;
+  }
+  #bubble2 {
+  width: 320px;
+  }
+  #bubble3 {
+  width: 320px;
+  }
+  #bubble4 {
+  width: 320px;
+  }
+#bubble5 {
+width: 320px;
+}
+#bubble6 {
+width: 320px;
+}
+#bubble7 {
+width: 320px;
+}
+}
