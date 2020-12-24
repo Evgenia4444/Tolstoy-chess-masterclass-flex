@@ -11,6 +11,7 @@ body {
   width: 1280px;
   height: auto;
   padding: 0;
+  overflow: hidden;
 }
 
 /* Bubbles */
@@ -329,28 +330,6 @@ animation-play-state: running;
 }
 
 @keyframes rotateimage4 {
-0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
-}
-
-.telbelayakoroleva {
-  position: absolute;
-  width: 98px;
-  height: 96px;
-  justify-content: center;
-  display: inline-block;
-  left: calc(50% - 80px);
-  top: calc(50% - 110px);
-  animation: rotatetelbelayakoroleva 1s;
-
-  animation-play-state: paused;
-}
-
-.telbelayakoroleva:hover {
-  animation-play-state: running;
-}
-
-@keyframes rotatetelbelayakoroleva {
 0% {transform: rotate(0deg);}
 100% {transform: rotate(360deg);}
 }
