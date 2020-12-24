@@ -77,8 +77,8 @@
 
 #bubbletext {
     font-size: 2.25rem;
-padding: 0;
-margin: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .littlesquares {
@@ -161,7 +161,7 @@ margin: 0;
     display: none;
   }
 
-#bubbletext {
+    #bubbletext {
     font-size: 1.5rem;
 
   }
@@ -176,10 +176,17 @@ margin: 0;
     height: 96px;
   }
 
+
+    .bigsquares {
+      width: 100vw;
+      height: 192px;
+    }
+
   .bigsquare {
     width: 192px;
     height: 192px;
   }
+
 
   .line1,
   .line2 {
@@ -252,10 +259,10 @@ margin: 0;
   height: 89,58px;
 }
 
-  /* .littlesquares {
+.lastsquares {
     width: 100vw;
     height: 96px;
-  } */
+  }
 
   /* .littlesquare {
     width: 95px;
