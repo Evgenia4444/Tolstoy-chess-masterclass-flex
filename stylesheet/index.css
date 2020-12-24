@@ -409,7 +409,7 @@ animation-play-state: running;
 
 @keyframes rotateimage7 {
 0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+100% {transform: rotate(-360deg);}
 }
 
 #image8 {
@@ -433,7 +433,7 @@ animation-play-state: running;
 
 @keyframes rotateimage8 {
 0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+100% {transform: rotate(-360deg);}
 }
 
 #image9 {
@@ -455,7 +455,7 @@ animation-play-state: running;
 
 @keyframes rotateimage9 {
 0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+100% {transform: rotate(-360deg);}
 }
 
 #image10 {
@@ -479,7 +479,7 @@ animation-play-state: running;
 
 @keyframes rotateimage10 {
 0% {transform: rotate(0deg);}
-100% {transform: rotate(360deg);}
+100% {transform: rotate(-360deg);}
 }
 
 .image11 {
@@ -509,8 +509,7 @@ animation-play-state: running;
 @keyframes horse {
   0% {top: 1em; left: 2em;}
   33% {top: .8em; left: 2em; }
-  66% {top: ; left: ;}
-  100% {top: ; left:; }
+
 }
 
 .image12 {
