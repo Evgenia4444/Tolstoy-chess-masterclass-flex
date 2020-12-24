@@ -52,31 +52,105 @@
   }
 }
 
+/* Macbook Pro '13 */
+@media only screen and (min-width: 1280px) and (max-width: 1366px) {
+
+
+  #bubbletext {
+    font-size: 3rem;
+  }
+
+    .telshow {
+    display: none;
+    }
+
+}
+
+
+
   /* Ipad Pro*/
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
 
-      #bubbletext {
-        font-size: 2.25rem;
-      }
+  .telshow{
+    display: none;
+  }
 
-      .telshow {
-        display: none;
-      }
+#bubbletext {
+    font-size: 2.25rem;
+padding: 0;
+margin: 0;
+  }
 
-      .littlesquares {
-        width: 100%;
-        height: 128px;
-      }
+  .littlesquares {
+    width: 100%;
+    height: 128px;
+  }
 
-      .littlesquare {
-        width: 128px;
-        height: 128px;
-      }
+  .littlesquare {
+    width: 128px;
+    height: 128px;
+  }
 
-      .bigsquare {
-        width: 256px;
-        height: 256px;
-      }
+  .bigsquare {
+    width: 256px;
+    height: 256px;
+  }
+
+  .item-bubble1 {
+    width: 610px;
+    height: 256px;
+  }
+
+  .item-bubble2 {
+    width: 342px;
+    height: 127px;
+
+  }
+
+  .item-bubble3 {
+    width: 341px;
+    height: 128px;
+  }
+
+  .item-bubble4 {
+    width: 714px;
+    height: 256px;
+  }
+
+  .item-bubble5 {
+    width: 716px;
+    height: 255px;
+  }
+
+  .item-bubble6 {
+    width: 539px;
+    height: 128px;
+  }
+
+  .item-bubble7 {
+    width: 714px;
+    height: 198px;
+  }
+
+.triangle1 {
+  width: 103,46px;
+  height: 144,11px;
+}
+
+.triangle2 {
+  width: 85,21px;
+  height: 119,45px;
+}
+.triangle3 {
+  width: 79,97px;
+  height: 111,4px;
+}
+.triangle4 {
+  width: 89,26px;
+  height: 124,33px;
+}
+
+
 
 }
 
@@ -89,7 +163,8 @@
 
 #bubbletext {
     font-size: 1.5rem;
-
+padding: 0;
+margin: 0;
   }
 
   .littlesquares {
@@ -103,6 +178,12 @@
   }
 
   .bigsquare {
+    width: 192px;
+    height: 192px;
+  }
+
+  .line1,
+  .line2 {
     width: 192px;
     height: 192px;
   }
@@ -188,6 +269,7 @@
     padding: 0;
     margin: 0;
   }
+
 .ls {
   display: none;
 }
