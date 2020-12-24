@@ -15,11 +15,18 @@ body {
 
 /* Bubbles */
 
-#bubbletext {
+.bubbletext {
   font-family: 'Roboto', sans-serif;
   font-size: 3rem;
   margin-left: 61px;
   margin-top: 76px;
+}
+
+.bubbletext3 {
+    font-size: 3rem;
+    line-height: 160px;
+    margin-left: 61px;
+    margin-top: 4px;
 }
 
 .item_bubble1 {

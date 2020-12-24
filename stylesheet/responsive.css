@@ -15,7 +15,7 @@
 
 @media only screen (min-width: 1680px) and (max-width: 1920px) {
 
-#bubbletext {
+.bubbletext {
   font-size: 61px;
 }
 
@@ -28,7 +28,7 @@
 /* Macbook Pro */
 @media only screen (min-width: 1440px) and (max-width: 1680px) {
 
-  #bubbletext {
+  .bubbletext {
     font-size: 44px;
   }
 
@@ -116,7 +116,7 @@
     display: none;
   }
 
-    #bubbletext {
+    .bubbletext {
         font-size: 1.5rem;
 
       }
@@ -224,7 +224,7 @@
   /* iPhone X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
 
-    #bubbletext {
+    .bubbletext {
       font-size: 1rem;
     }
 
@@ -242,9 +242,21 @@
 /* iphone se */
 @media only screen and (min-width: 320px) and (max-width: 375px)  {
 
-  #bubbletext {
+  .bubbletext {
     font-size: 1rem;
 
+  }
+
+  .bubbletext {
+  top: 1em;
+
+  }
+
+  .bubbletext3 {
+  top: 1em;
+  line-height: 10px;
+  margin-left: 6px;
+  margin-top: 1px;
   }
 
 .ls {
@@ -272,7 +284,7 @@
     display: inline-block;
     width: 36px;
     height: 51px;
-    top: .2em;
+    top: 4em;
     left: 1em;
 
   }
@@ -284,24 +296,47 @@
   }
 
   .triangle2 {
-    width: 31,62px;
-    height: 44,33px;
-    top: 7.6em;
+    display: inline-block;
+    width: 31.62px;
+    height: 44.33px;
+    top: 1.4em;
     left: 1em;
   }
   .item_bubble3 {
     width: 125px;
     height: 47px;
+    top: 12.1em;
+    left: 9.93em;
+  }
+
+  .triangle3 {
+    display: inline-block;
+    width: 29.26px;
+    height: 40.75px;
+    top: 1.4em;
+    left: 1em;
   }
 
   .item_bubble4 {
     width: 230px;
     height: 91px;
+    top: 17.2em;
+    left: 4.968749em;
+  }
+
+  .triangle4 {
+    display: inline-block;
+    width: 36.9px;
+    height: 51.4px;
+    top: 4em;
+    left: 1em;
   }
 
   .item_bubble5 {
     width: 251px;
     height: 91px;
+    top: 22.9em;
+    left: 2.4em;
   }
 
   .item_bubble6 {
