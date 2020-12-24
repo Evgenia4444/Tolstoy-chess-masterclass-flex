@@ -13,7 +13,11 @@
 }
 
 
-@media only screen (min-width: 1680px) {
+@media only screen (min-width: 1680px) and (max-width: 1920px) {
+
+#bubbletext {
+  font-size: 61px;
+}
 
   .telshow{
     display: none;
@@ -21,7 +25,12 @@
 
 }
 
+/* Macbook Pro */
 @media only screen (min-width: 1440px) and (max-width: 1680px) {
+
+  #bubbletext {
+    font-size: 44px;
+  }
 
   .telshow{
     display: none;
@@ -41,6 +50,16 @@
     width: 360px;
     height: 360px;
   }
+}
+
+  /* Ipad Pro*/
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+
+#bubbletext {
+  font-size: 36px;
+}
+
+
 }
 
 /* ipad portrait */
