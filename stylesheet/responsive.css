@@ -244,6 +244,7 @@
 
   #bubbletext {
     font-size: 1rem;
+
   }
 
 .ls {
@@ -264,20 +265,30 @@
     width: 217px;
     height: 91px;
     top: 0;
+    left:5em;
   }
 
   .triangle1 {
-    width: 36,9px;
-    height: 51,4px;
+    display: inline-block;
+    width: 36px;
+    height: 51px;
     top: .2em;
+    left: 1em;
+
   }
   .item_bubble2 {
     width: 126px;
     height: 47px;
-    top: 3em;
-    left: 1.5em;
+    top: 7em;
+    left: 5.04em;
   }
 
+  .triangle2 {
+    width: 31,62px;
+    height: 44,33px;
+    top: 7.6em;
+    left: 1em;
+  }
   .item_bubble3 {
     width: 125px;
     height: 47px;
@@ -311,6 +322,7 @@
   .line1 {
     width: 50%;
     height: 160px;
+    left: -10em;
   }
 
   .line2 {
@@ -332,6 +344,35 @@
 
   .image2 {
   display: none;
+  }
+
+  .image3 {
+    width: 70%;
+    height: 70%;
+  }
+
+  .image4 {
+    width: 70%;
+    height: 70%;
+  }
+
+  .chornayaladya {
+    position: absolute;
+    justify-content: center;
+    display: inline-block;
+    align-items: center;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    animation: chornayaladya 2s linear infinite;
+    animation-play-state: paused;
+  }
+
+  .last4,
+  .last5,
+  .last6,
+  .last7 {
+    width: 40px;
+    height: 40px;
   }
 
 }
