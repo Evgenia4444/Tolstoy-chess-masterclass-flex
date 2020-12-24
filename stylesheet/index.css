@@ -22,7 +22,7 @@ body {
   margin-top: 76px;
 }
 
-.item-bubble1 {
+.item_bubble1 {
   background-color: #FFC6C6;
   width: 764px;
   height: 320px;
@@ -35,7 +35,7 @@ body {
 }
 
 
-.item-bubble2 {
+.item_bubble2 {
   background-color: #FFFF;
   width: 429px;
   height: 160px;
@@ -103,7 +103,7 @@ body {
   display: inline-block;
 }
 
-.item-bubble3 {
+.item_bubble3 {
   background-color: #FFC6C6;
   width: 427px;
   height: 160px;
@@ -114,7 +114,7 @@ body {
   justify-content: center;
 }
 
-.item-bubble4 {
+.item_bubble4 {
   background-color: #FFC6C6;
   width: 894px;
   height: 320px;
@@ -125,7 +125,7 @@ body {
   justify-content: center;
 }
 
-.item-bubble5 {
+.item_bubble5 {
   background-color: #FFFF;
   width: 897px;
   height: 320px;
@@ -137,7 +137,7 @@ body {
   justify-content: center;
 }
 
-.item-bubble6 {
+.item_bubble6 {
   background-color: #FFC6C6;
   width: 674px;
   height: 160px;
@@ -149,7 +149,7 @@ body {
   justify-content: center;
 }
 
-.item-bubble7 {
+.item_bubble7 {
   background-color: #FFFF;
   width: 893px;
   height: 248px;
