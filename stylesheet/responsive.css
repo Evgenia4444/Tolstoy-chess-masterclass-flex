@@ -118,15 +118,75 @@
 
   .bubbletext {
     font-size: 1.5rem;
-
+    line-height: 1.2em;
+    margin-top: 2em;
   }
 
-  .bubbletext {
-  top: 1em;
+#image1 {
+  width: 40%;
+  height: 40%;
+  left: calc(50% - 5px);
+  top: calc(50% - 5px);
+}
 
+.image2 {
+  width: 70%;
+  height: 70%;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+}
+#image3 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image4 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image5 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image6 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image7 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image8 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image9 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+#image10 {
+  width: 80%;
+  height: 80%;
+  left: calc(50% - 76px);
+  top: calc(50% - 76px);
+}
+  .image2 {
+    width: 70%;
+    height: 70%;
   }
-
-
 
 
 
@@ -170,6 +230,7 @@
     left: 1em;
   }
 
+
   .item_bubble3 {
     width: 256px;
     height: 95px;
@@ -184,6 +245,7 @@
     top: 3em;
     left: 2em;
   }
+
 
   .item_bubble4 {
     width: 536px;

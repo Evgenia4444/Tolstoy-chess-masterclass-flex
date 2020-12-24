@@ -212,6 +212,10 @@ position: relative;
 }
 
 /* Images */
+#image1 {
+  width: 64.23px;
+  height: 94px;
+}
 .image1 {
   position: absolute;
   width: 64.23px;
@@ -232,6 +236,7 @@ width: 480px;
 }
 
 .whiteladya:hover .image1 {
+  cursor: pointer;
 animation-play-state: running;
 }
 
@@ -255,6 +260,7 @@ animation-play-state: running;
 }
 
 .koroleva:hover .image2 {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -280,6 +286,7 @@ animation-play-state: running;
 
 
 #image3:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -302,6 +309,7 @@ animation-play-state: running;
 }
 
 .telfigurka3:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -326,6 +334,7 @@ animation-play-state: running;
 
 
 #image4:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -348,6 +357,7 @@ animation-play-state: running;
 
 
 #image5:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -371,6 +381,7 @@ animation-play-state: running;
 
 
 #image6:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -392,6 +403,7 @@ animation-play-state: running;
 
 
 #image7:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -415,6 +427,7 @@ animation-play-state: running;
 
 
 #image8:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -436,6 +449,7 @@ animation-play-state: running;
 
 
 #image9:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -459,6 +473,7 @@ animation-play-state: running;
 
 
 #image10:hover {
+  cursor: pointer;
   animation-play-state: running;
 }
 
@@ -487,6 +502,7 @@ animation-play-state: running;
 }
 
 .horse:hover .image11 {
+  cursor: pointer;
   animantion-play-state: running;
 }
 
@@ -517,6 +533,7 @@ animation-play-state: running;
 }
 
 .blackqueen:hover .image12 {
+  cursor: pointer;
   animantion-play-state: running
 }
 
