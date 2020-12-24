@@ -144,22 +144,22 @@
     width: 458px;
     height: 192px;
     top: 0;
-    left:5em;
+    left: 21em;
   }
 
   .triangle1 {
     display: inline-block;
-    width: 36px;
-    height: 51px;
-    top: 4em;
-    left: 1em;
+    width: 77.59px;
+    height: 108.08px;
+    top: 8.6em;
+    left: 1.8em;
 
   }
   .item_bubble2 {
     width: 256px;
     height: 97px;
-    top: 7em;
-    left: 5.04em;
+    top: 17.96em;
+    left: 10em;
   }
 
   .triangle2 {
@@ -169,49 +169,50 @@
     top: 1.4em;
     left: 1em;
   }
+
   .item_bubble3 {
     width: 256px;
     height: 95px;
-    top: 12.1em;
-    left: 9.93em;
+    top: 24.01em;
+    left: 31.6em;
   }
 
   .triangle3 {
     display: inline-block;
-    width: 29.26px;
-    height: 40.75px;
-    top: 1.4em;
-    left: 1em;
+    width: 59.97px;
+    height: 83.54px;
+    top: 3em;
+    left: 2em;
   }
 
   .item_bubble4 {
-    width: 230px;
-    height: 91px;
-    top: 17.2em;
-    left: 4.968749em;
+    width: 536px;
+    height: 192px;
+    top: 36em;
+    left: 16.6em;
   }
 
   .triangle4 {
     display: inline-block;
-    width: 36.9px;
-    height: 51.4px;
-    top: 4em;
-    left: 1em;
+    width: 66.94px;
+    height: 93.24px;
+    top: 9em;
+    left: 5em;
   }
 
   .item_bubble5 {
-    width: 251px;
-    height: 91px;
-    top: 22.9em;
-    left: 2.4em;
+    width: 537px;
+    height: 192px;
+    top: 48em;
+    left: 11.24em;
   }
 
   .triangle5 {
     display: inline-block;
-    width: 30.44px;
-    height: 42.67px;
-    top: 4.4em;
-    left: 2.9em;
+    width: 63.9px;
+    height: 89.58px;
+    top: 9em;
+    left: 26em;
   }
 
   .item_bubble6 {
@@ -219,10 +220,27 @@
     height: 47px;
   }
 
+  .triangle6 {
+    display: inline-block;
+    width: 59.97px;
+    height: 83.54px;
+    top: 4.4em;
+    left: 2.9em;
+  }
+
   .item_bubble7 {
     width: 535px;
     height: 149px;
   }
+
+  .triangle7 {
+    display: inline-block;
+    width: 63.9px;
+    height: 89.58px;
+    top: 4.4em;
+    left: 2.9em;
+  }
+
 
   .bigsquare {
     width: 160px;
