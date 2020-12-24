@@ -252,6 +252,7 @@ animation-play-state: running;
   height: 79.15px;
   justify-content: center;
   display: inline-block;
+  align-items: center;
   left: calc(50% - 40px);
   top: calc(50% - 40px);
   z-index: 160;
@@ -259,14 +260,18 @@ animation-play-state: running;
   animation-play-state: paused;
 }
 
+.koroleva {
+  width: 480px;
+  height: 160px;
+}
 .koroleva:hover .image2 {
   cursor: pointer;
   animation-play-state: running;
 }
 
 @keyframes koroleva {
-  0% {top: 2.1em; left: 2.48em;}
-  100% {top: 0.1em; left: 2.48em; }
+  0% {top: 2.1em; left: 2.46em;}
+  100% {top: 384px; left: 2.46em; }
 
 }
 
