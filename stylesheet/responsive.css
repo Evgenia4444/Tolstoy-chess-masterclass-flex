@@ -1,8 +1,31 @@
-@media only screen (min-width: 1680px) {
+@media all and (min-width: 1000px) {
+
+  .telshow{
+    display: none;
+  }
 
 }
 
-@media only screen (min-width: 1440px) and (min-width: 1680px) {
+  /* HD*/
+@media only screen and (min-width: 1920px)  {
+
+
+}
+
+
+@media only screen (min-width: 1680px) {
+
+  .telshow{
+    display: none;
+  }
+
+}
+
+@media only screen (min-width: 1440px) and (max-width: 1680px) {
+
+  .telshow{
+    display: none;
+  }
 
   .littlesquares {
     width: 100%;
@@ -23,6 +46,10 @@
 /* ipad portrait */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
+  .telshow{
+    display: none;
+  }
+
 h1 {
 
     font-size: 1.5rem;
@@ -37,6 +64,7 @@ h1 {
   .item-bubble2 {
     width: 256px;
     height: 96px;
+
   }
 
   .item-bubble3 {
@@ -106,8 +134,9 @@ h1 {
 @media only screen and (max-device-width: 375px)  {
 
   #bubbletext {
-    font-size: 24px;
+    font-size: 1rem;
     padding: 0;
+    margin: 0;
   }
 .ls {
   display: none;
@@ -125,10 +154,19 @@ h1 {
   .item-bubble1 {
     width: 217px;
     height: 91px;
+    top: 0;
+  }
+
+  .triangle1 {
+    width: 36,9px;
+    height: 51,4px;
+    top: .2em;
   }
   .item-bubble2 {
     width: 126px;
     height: 47px;
+    top: 3em;
+    left: 1.5em;
   }
 
   .item-bubble3 {
@@ -160,13 +198,22 @@ h1 {
     width: 160px;
     height: 160px;
   }
+
+  .line1 {
+    width: 50%;
+    height: 160px;
+  }
+
 .bs {
   display: none;
 }
 
-img {
-  content: fit;
+.image1 {
+display: none;
 }
 
+.image2 {
+display: none;
+}
 
 }
