@@ -276,6 +276,8 @@ animation-play-state: running;
   animation-play-state: paused;
 }
 
+
+
 #image3:hover {
   animation-play-state: running;
 }
@@ -285,7 +287,27 @@ animation-play-state: running;
 100% {transform: rotate(360deg);}
 }
 
+.telfigurka3 {
+  position: absolute;
+  width: 63px;
+  height: 96px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 80px);
+  top: calc(50% - 110px);
+  animation-name: rotateimage3;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
 
+.telfigurka3:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotateimage3 {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
 
 #image4 {
   position: absolute;
@@ -310,6 +332,29 @@ animation-play-state: running;
 0% {transform: rotate(0deg);}
 100% {transform: rotate(360deg);}
 }
+
+.telbelayakoroleva {
+  position: absolute;
+  width: 98px;
+  height: 96px;
+  justify-content: center;
+  display: inline-block;
+  left: calc(50% - 80px);
+  top: calc(50% - 110px);
+  animation: rotatetelbelayakoroleva 1s;
+
+  animation-play-state: paused;
+}
+
+.telbelayakoroleva:hover {
+  animation-play-state: running;
+}
+
+@keyframes rotatetelbelayakoroleva {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+
 
 #image5 {
   position: absolute;
