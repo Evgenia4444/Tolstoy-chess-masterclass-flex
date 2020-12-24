@@ -118,7 +118,7 @@ body {
   background-color: #FFC6C6;
   width: 894px;
   height: 320px;
-  z-index: 501;
+  z-index: 500;
   left: 321px;
   top: 960px;
   position: absolute;
@@ -178,7 +178,6 @@ body {
   height: 160px;
   position: relative;
 }
-
  .line1 {
 width: 100%;
 height: 320px;
