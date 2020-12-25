@@ -8,7 +8,9 @@
 
   /* HD*/
 @media only screen and (min-width: 1920px)  {
-
+.telshow {
+  display: none;
+}
 
 }
 
@@ -147,10 +149,10 @@
 .zhdyom {
   font-size: 24px;
 }
+
 #image1 {
   width: 40%;
   height: 40%;
-
 }
 
 
@@ -202,12 +204,6 @@
   left: calc(50% - 76px);
   top: calc(50% - 76px);
 }
-  .image2 {
-    width: 70%;
-    height: 70%;
-  }
-
-
 
   .littlesquares {
     width: 100vw;
@@ -223,7 +219,7 @@
     width: 458px;
     height: 192px;
     top: 0;
-    left: 21em;
+    left: 16em;
   }
 
   .triangle1 {
@@ -249,16 +245,7 @@
     left: 11.85em;
   }
 
-  #image11 {
-    width: 55%;
-    height: 55%;
 
-  }
-
-  #image12 {
-    width: 55%;
-    height: 55%;
-  }
 
     .item_bubble3 {
       width: 256px;
@@ -280,7 +267,7 @@
       width: 536px;
       height: 192px;
       top: 36em;
-      left: 16.6em;
+      left: 11.94em;
     }
 
     .triangle4 {
@@ -295,7 +282,7 @@
       width: 537px;
       height: 192px;
       top: 48em;
-      left: 11.24em;
+      left: 5.92em;
     }
 
     .triangle5 {
@@ -307,25 +294,27 @@
     }
 
     .item_bubble6 {
-      width: 537px;
-      height: 192px;
-      top: 60em;
-      left: 17.2em;
+      width: 404px;
+      height: 96px;
+      top: 59.99em;
+      left: 12.001em;
     }
 
     .item_bubble7 {
       width: 535px;
       height: 149px;
-      top: 70em;
-      left: 15em;
+      top: 66em;
+      left: 5.964em;
     }
 
-    .item_bubble6 {
-      width: 404px;
-      height: 96px;
-      top: 60em;
-      left: 17.2em;
+    .triangle7 {
+      display: inline-block;
+      width: 63.9px;
+      height: 89.58px;
+      top: 6.3em;
+      left: 26em;
     }
+
     .triangle6 {
       display: inline-block;
       width: 59.97px;
@@ -338,19 +327,6 @@
   margin-left: 3px;
   margin-top: 4px;
   }
-
-    .item_bubble7 {
-      width: 535px;
-      height: 149px;
-    }
-
-    .triangle7 {
-      display: inline-block;
-      width: 63.9px;
-      height: 89.58px;
-      top: 4.4em;
-      left: 2.9em;
-    }
 
   .bigsquares {
     width: 100vw;
@@ -372,6 +348,31 @@
   }
   .zhdyom {
     font-size: 1.5rem;
+    margin-left: 7em;
+  }
+
+  #image11 {
+    width: 50%;
+    height: 50%;
+
+  }
+  @keyframes horse {
+    0% {top: 1.5em; left: 1.7em;}
+    33% {top: 200px; left: 1.7em; }
+    66% {top: 350px; left: 1.7em; }
+    100% {top: 350px; left: -130px; }
+
+  }
+
+  #image12 {
+    width: 50%;
+    height: 50%;
+  }
+
+  @keyframes blackqueen {
+    0% {top: 1.7em; left: 1.45em;}
+    100% {top: 2.1em; left: 1.45em; }
+
   }
 
   #image1 {
@@ -382,7 +383,7 @@
 
   @keyframes whiteladya {
     0% {top: 1.56em; left: 1.5em;}
-    100% {top: 1.56em; left: 15.36em; }
+    100% {top: 1.56em; left: 15.3em; }
 
   }
 
