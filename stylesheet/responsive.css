@@ -470,7 +470,7 @@
     justify-content: center;
     display: inline-block;
     align-items: center;
-    left: calc(50% - 18px);
+    left: calc(50% - 30px);
     top: calc(50% - 18px);
     z-index: 190;
     animation: telkoroleva 2s linear infinite;
@@ -547,22 +547,22 @@
     width: 320px;
     height: 128px;
     top: 0;
-    left: 7em;
+    left: 7.2em;
   }
 
   .triangle1 {
     display: inline-block;
     width: 36px;
     height: 51px;
-    top: 6.6em;
+    top: 6.57em;
     left: 1em;
 
   }
   .item_bubble2 {
     width: 150px;
     height: 60px;
-    top: 10.99em;
-    left: 7.6em;
+    top: 11.3em;
+    left: 7.5em;
   }
 
   .triangle2 {
@@ -576,7 +576,7 @@
     width: 180px;
     height: 60px;
     top: 18.8em;
-    left: 17em;
+    left: 14.96em;
   }
 
   .triangle3 {
@@ -584,7 +584,7 @@
     width: 29.26px;
     height: 40.75px;
     top: 2.6em;
-    left: 2.4em;
+    left: 1.6em;
   }
 
   .item_bubble4 {
@@ -598,14 +598,14 @@
     display: inline-block;
     width: 36.9px;
     height: 51.4px;
-    top: 6.1em;
+    top: 6.05em;
     left: 1.2em;
   }
 
   .item_bubble5 {
     width: 344px;
     height: 120px;
-    top: 33.99em;
+    top: 34em;
     left: 4em;
   }
 
@@ -619,8 +619,8 @@
 
   .item_bubble6 {
     width: 260px;
-    height: 75px;
-    top: 41.46em;
+    height: 84px;
+    top: 41.4em;
     left: 7.4em;
   }
 
@@ -628,13 +628,13 @@
     display: inline-block;
     width: 24.99px;
     height: 34.81px;
-    top: 3.6em;
+    top: 3.7em;
     left: 1em;
   }
 
   .item_bubble7 {
     width: 280px;
-    height: 90px;
+    height: 84px;
     top: 46.1em;
     left: 4em;
   }
