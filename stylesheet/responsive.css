@@ -245,143 +245,160 @@
     display: inline-block;
     width: 31.62px;
     height: 44.33px;
-    top: 1.4em;
-    left: 1em;
+    top: 4.68em;
+    left: 11.85em;
   }
 
+  #image11 {
+    width: 55%;
+    height: 55%;
 
-  .item_bubble3 {
-    width: 256px;
-    height: 95px;
-    top: 24.01em;
-    left: 31.6em;
   }
 
-  .triangle3 {
-    display: inline-block;
-    width: 59.97px;
-    height: 83.54px;
-    top: 3em;
-    left: 2em;
+  #image12 {
+    width: 55%;
+    height: 55%;
   }
 
+    .item_bubble3 {
+      width: 256px;
+      height: 96px;
+      top: 24.01em;
+      left: 26em;
+    }
 
-  .item_bubble4 {
-    width: 536px;
-    height: 192px;
-    top: 36em;
-    left: 16.6em;
+    .triangle3 {
+      display: inline-block;
+      width: 59.97px;
+      height: 83.54px;
+      top: 3em;
+      left: 2em;
+    }
+
+
+    .item_bubble4 {
+      width: 536px;
+      height: 192px;
+      top: 36em;
+      left: 16.6em;
+    }
+
+    .triangle4 {
+      display: inline-block;
+      width: 66.94px;
+      height: 93.24px;
+      top: 9em;
+      left: 5em;
+    }
+
+    .item_bubble5 {
+      width: 537px;
+      height: 192px;
+      top: 48em;
+      left: 11.24em;
+    }
+
+    .triangle5 {
+      display: inline-block;
+      width: 63.9px;
+      height: 89.58px;
+      top: 9em;
+      left: 26em;
+    }
+
+    .item_bubble6 {
+      width: 537px;
+      height: 192px;
+      top: 60em;
+      left: 17.2em;
+    }
+
+    .item_bubble7 {
+      width: 535px;
+      height: 149px;
+      top: 70em;
+      left: 15em;
+    }
+
+    .item_bubble6 {
+      width: 404px;
+      height: 96px;
+      top: 60em;
+      left: 17.2em;
+    }
+    .triangle6 {
+      display: inline-block;
+      width: 59.97px;
+      height: 83.54px;
+      top: 3.56em;
+      left: 2.9em;
+    }
+
+  .bubbletext6 {
+  margin-left: 3px;
+  margin-top: 4px;
   }
 
-  .triangle4 {
-    display: inline-block;
-    width: 66.94px;
-    height: 93.24px;
-    top: 9em;
-    left: 5em;
-  }
+    .item_bubble7 {
+      width: 535px;
+      height: 149px;
+    }
 
-  .item_bubble5 {
-    width: 537px;
-    height: 192px;
-    top: 48em;
-    left: 11.24em;
-  }
+    .triangle7 {
+      display: inline-block;
+      width: 63.9px;
+      height: 89.58px;
+      top: 4.4em;
+      left: 2.9em;
+    }
 
-  .triangle5 {
-    display: inline-block;
-    width: 63.9px;
-    height: 89.58px;
-    top: 9em;
-    left: 26em;
-  }
-
-  .item_bubble6 {
-    width: 537px;
-    height: 192px;
-    top: 60em;
-    left: 17.2em;
-  }
-
-  .item_bubble7 {
-    width: 535px;
-    height: 149px;
-    top: 70em;
-    left: 15em;
-  }
-
-  .item_bubble6 {
-    width: 404px;
-    height: 96px;
-    top: 60em;
-    left: 17.2em;
-  }
-  .triangle6 {
-    display: inline-block;
-    width: 59.97px;
-    height: 83.54px;
-    top: 3.56em;
-    left: 2.9em;
-  }
-
-.bubbletext6 {
-margin-left: 3px;
-margin-top: 4px;
-}
-
-  .item_bubble7 {
-    width: 535px;
-    height: 149px;
-  }
-
-  .triangle7 {
-    display: inline-block;
-    width: 63.9px;
-    height: 89.58px;
-    top: 4.4em;
-    left: 2.9em;
-  }
-
-.bigsquares {
-  width: 100vw;
-  height: 192px;
-}
-
-  .bigsquare {
-    width: 192px;
-    height: 192px;
-  }
-
-  .lastsquares {
-    width: 100%;
-    height: 96px;
-  }
-
-.basmannaya {
-  font-size: 0.75rem;
-}
-.zhdyom {
-  font-size: 1.5rem;
-}
-  /* .littlesquares {
+  .bigsquares {
     width: 100vw;
-    height: 96px;
-  }
-
-  .littlesquare {
-    width: 95px;
-    height:95px;
-  }
-
-  .bigsquare {
-    width: 192px;
     height: 192px;
   }
 
-  .line1 {
-    width: 192px;
-    height: 192px;
-  } */
+    .bigsquare {
+      width: 192px;
+      height: 192px;
+    }
+
+    .lastsquares {
+      width: 100%;
+      height: 96px;
+    }
+
+  .basmannaya {
+    font-size: 0.75rem;
+  }
+  .zhdyom {
+    font-size: 1.5rem;
+  }
+
+  #image1 {
+    width: 50%;
+    height: 50%;
+
+  }
+
+  @keyframes whiteladya {
+    0% {top: 1.56em; left: 1.5em;}
+    100% {top: 1.56em; left: 15.36em; }
+
+  }
+
+  #image2 {
+    width: 50%;
+    height: 50%;
+
+  }
+
+  @keyframes koroleva {
+    0% {top: 1.6em; left: 1.6em;}
+    100% {top: 208px; left: 1.6em; }
+
+  }
+
+
 }
 
   /* iPhone X */

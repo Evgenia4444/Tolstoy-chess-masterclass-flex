@@ -219,11 +219,8 @@ position: relative;
 }
 
 /* Images */
+
 #image1 {
-  width: 64.23px;
-  height: 94px;
-}
-.image1 {
   position: absolute;
   width: 64.23px;
   height: 94px;
@@ -238,12 +235,13 @@ position: relative;
 }
 
 .whiteladya {
+cursor: pointer;
 height: 160px;
 width: 480px;
 }
 
-.whiteladya:hover .image1 {
-  cursor: pointer;
+.whiteladya:hover #image1 {
+cursor: pointer;
 animation-play-state: running;
 }
 
@@ -253,7 +251,7 @@ animation-play-state: running;
 
 }
 
-.image2 {
+#image2 {
   position: absolute;
   width: 81px;
   height: 79.15px;
@@ -271,7 +269,7 @@ animation-play-state: running;
   width: 480px;
   height: 160px;
 }
-.koroleva:hover .image2 {
+.koroleva:hover #image2 {
   cursor: pointer;
   animation-play-state: running;
 }
@@ -501,14 +499,15 @@ animation-play-state: running;
   justify-content: center;
   display: inline-block;
   z-index: 600;
-  left: calc(50% - 36px);
-  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  top: calc(50% - 90px);
   animation: horse 2s linear infinite;
   animation-play-state: paused;
 
 }
 
 .horse {
+  cursor: pointer;
   width: 320px;
   height: 480px;
 }
@@ -541,6 +540,7 @@ animation-play-state: running;
 }
 
 .blackqueen {
+  cursor: pointer;
   width: 320px;
   height: 320px;
 }
@@ -582,6 +582,6 @@ animation-play-state: running;
   width: 778px;
   z-index: 100;
   font-size: 3rem;
-  margin-left: 4.6em; 
+  margin-left: 4.6em;
   margin-top: 0;
 }
