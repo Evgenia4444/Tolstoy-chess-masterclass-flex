@@ -776,11 +776,12 @@
 
 
   /* iPhone X */
-@media only screen and (min-width: 389px) and (max-width: 480px) {
+@media only screen and (min-width: 378px) and (max-width: 480px) {
 
 .koroleva {
   display: none;
 }
+
   .bubbletext {
     font-size: 1.1rem;
     line-height: 1.1rem;
@@ -790,14 +791,14 @@
 
   #telkoroleva {
     position: absolute;
-    width: 100%
-    height: 100%
+    width: 58%;
+    height: 58%;
     justify-content: center;
     display: inline-block;
     align-items: center;
-    left: calc(50% - 18px);
-    top: calc(50% - 18px);
-    z-index: 190;
+    left: calc(50% - 27px);
+    top: calc(50% - 27px);
+    z-index: 197;
     animation: telkoroleva 2s linear infinite;
     animation-play-state: paused;
   }
@@ -859,7 +860,7 @@
 }
 
   .littlesquares {
-    width: 100vw;
+    width: 100%;
     height: 120px;
   }
 
