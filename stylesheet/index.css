@@ -599,6 +599,16 @@ animation-play-state: running;
   margin-top: 0;
 }
 
+.basmannaya1 {
+  font-size: 1.1rem;
+  position: relative;
+  width: 300px;
+  z-index: 538;
+  color: #222831;
+
+  margin-left: 100px;
+  margin-top: 1400px;
+}
 .cc {
   background-color: #222831;
 }
