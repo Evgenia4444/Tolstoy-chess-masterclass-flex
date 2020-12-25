@@ -532,9 +532,9 @@ animation-play-state: running;
   height: 86px;
   justify-content: center;
   display: inline-block;
-
-  left: calc(50% - 60px);
-  top: calc(50% - 60px);
+  z-index: 600;
+  left: calc(50% - 65px);
+  top: calc(50% - 65px);
   animation: blackqueen 2s linear infinite;
   animation-play-state: paused;
 
@@ -542,7 +542,7 @@ animation-play-state: running;
 
 .blackqueen {
   cursor: pointer;
-  width: 320px;
+  width: 160px;
   height: 320px;
 }
 
@@ -552,8 +552,8 @@ animation-play-state: running;
 }
 
 @keyframes blackqueen {
-  0% {top: 1.7em; left: 1.76em;}
-  100% {top: 2.1em; left: 1.76em; }
+  0% {top: 2em; left: 1.8em;}
+  100% {top: 180px; left: 1.8em; }
 
 }
 
