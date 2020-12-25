@@ -160,6 +160,7 @@
     line-height: 1.2em;
     margin-top: 2em;
   }
+
 .basmannaya {
   font-size: 12px;
 }
@@ -356,7 +357,7 @@
     }
 
     .lastsquares {
-      width: 100%;
+      width: 100vw;
       height: 96px;
     }
 
