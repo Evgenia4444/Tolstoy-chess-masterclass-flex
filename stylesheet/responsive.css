@@ -458,13 +458,15 @@
 
   .bubbletext {
     font-size: 1rem;
-
+    line-height: 1rem;
+    margin-top: 2em;
+    margin-left: 2em;
   }
 
   #telkoroleva {
     position: absolute;
-    width: 100%
-    height: 100%
+    width: 100%;
+    height: 100%;
     justify-content: center;
     display: inline-block;
     align-items: center;
@@ -542,10 +544,10 @@
   }
 
   .item_bubble1 {
-    width: 217px;
-    height: 91px;
+    width: 320px;
+    height: 128px;
     top: 0;
-    left:5em;
+    left: 7em;
   }
 
   .triangle1 {
@@ -557,10 +559,10 @@
 
   }
   .item_bubble2 {
-    width: 126px;
-    height: 47px;
-    top: 7em;
-    left: 5.04em;
+    width: 150px;
+    height: 60px;
+    top: 10.99em;
+    left: 7.6em;
   }
 
   .triangle2 {
@@ -571,10 +573,10 @@
     left: 1em;
   }
   .item_bubble3 {
-    width: 125px;
-    height: 47px;
-    top: 12.1em;
-    left: 9.93em;
+    width: 180px;
+    height: 60px;
+    top: 18.8em;
+    left: 17em;
   }
 
   .triangle3 {
@@ -586,10 +588,10 @@
   }
 
   .item_bubble4 {
-    width: 230px;
-    height: 91px;
-    top: 17.2em;
-    left: 4.968749em;
+    width: 336px;
+    height: 120px;
+    top: 25em;
+    left: 7.2em;
   }
 
   .triangle4 {
@@ -601,10 +603,10 @@
   }
 
   .item_bubble5 {
-    width: 251px;
-    height: 91px;
-    top: 22.9em;
-    left: 2.4em;
+    width: 344px;
+    height: 120px;
+    top: 32em;
+    left: 4em;
   }
 
   .triangle5 {
@@ -616,10 +618,10 @@
   }
 
   .item_bubble6 {
-    width: 177px;
-    height: 47px;
-    top: 28.09em;
-    left: 5em;
+    width: 220px;
+    height: 60px;
+    top: 39em;
+    left: 7.4em;
   }
 
   .triangle6 {
@@ -632,9 +634,9 @@
 
   .item_bubble7 {
     width: 251px;
-    height: 71px;
-    top: 31em;
-    left: 2.5em;
+    height: 80px;
+    top: 45em;
+    left: 4em;
   }
 
   .triangle7 {
@@ -647,8 +649,8 @@
 
 
   .bigsquare {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
   }
 
   .telbigsquares {

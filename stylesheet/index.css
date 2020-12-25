@@ -586,3 +586,13 @@ animation-play-state: running;
   margin-left: 4.6em;
   margin-top: 0;
 }
+
+.cc {
+  background-color: #222831;
+}
+
+.cc:hover  {
+  cursor: pointer;
+  background-color: #206A5D;
+  transition: all 1s ease;
+}
