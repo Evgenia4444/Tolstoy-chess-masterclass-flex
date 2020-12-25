@@ -89,8 +89,8 @@ body {
 
 .triangle4 {
   position: absolute;
-  left: 28em;
-  top: 16em;
+  left: 8em;
+  top: 17em;
   z-index: 500;
   display: inline-block;
 }
@@ -105,8 +105,8 @@ body {
 
 .triangle6 {
   position: absolute;
-  left: 370px;
-  top: 1813,1px;
+  left: 7.2em;
+  top: 7.6em;
   z-index: 100;
   display: inline-block;
 }
