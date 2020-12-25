@@ -151,9 +151,16 @@
 /* ipad portrait */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-.telshow {
-  display: none;
-}
+    .telshow {
+      display: none;
+    }
+    #image33 {
+      display: none;
+    }
+
+    #image44 {
+      display: none;
+    }
 
   .bubbletext {
     font-size: 1.5rem;
