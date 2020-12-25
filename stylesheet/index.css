@@ -590,9 +590,3 @@ animation-play-state: running;
 .cc {
   background-color: #222831;
 }
-
-.cc:hover  {
-  cursor: pointer;
-  background-color: #206A5D;
-  transition: all 1s ease;
-}
