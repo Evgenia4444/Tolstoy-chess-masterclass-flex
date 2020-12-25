@@ -457,10 +457,10 @@
 @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
 
   .bubbletext {
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
     margin-top: 2em;
-    margin-left: 2em;
+    margin-left: 1.8em;
   }
 
   #telkoroleva {
@@ -554,7 +554,7 @@
     display: inline-block;
     width: 36px;
     height: 51px;
-    top: 4em;
+    top: 6.6em;
     left: 1em;
 
   }
@@ -569,8 +569,8 @@
     display: inline-block;
     width: 31.62px;
     height: 44.33px;
-    top: 1.4em;
-    left: 1em;
+    top: 2.34em;
+    left: 6em;
   }
   .item_bubble3 {
     width: 180px;
@@ -583,29 +583,29 @@
     display: inline-block;
     width: 29.26px;
     height: 40.75px;
-    top: 1.4em;
-    left: 1em;
+    top: 2.6em;
+    left: 2.4em;
   }
 
   .item_bubble4 {
     width: 336px;
     height: 120px;
-    top: 25em;
-    left: 7.2em;
+    top: 26.6em;
+    left: 7.4em;
   }
 
   .triangle4 {
     display: inline-block;
     width: 36.9px;
     height: 51.4px;
-    top: 4em;
-    left: 1em;
+    top: 6.1em;
+    left: 1.2em;
   }
 
   .item_bubble5 {
     width: 344px;
     height: 120px;
-    top: 32em;
+    top: 33.99em;
     left: 4em;
   }
 
@@ -613,14 +613,14 @@
     display: inline-block;
     width: 30.44px;
     height: 42.67px;
-    top: 4.3em;
-    left: 11.6em;
+    top: 6.4em;
+    left: 16em;
   }
 
   .item_bubble6 {
-    width: 220px;
-    height: 60px;
-    top: 39em;
+    width: 260px;
+    height: 75px;
+    top: 41.46em;
     left: 7.4em;
   }
 
@@ -633,9 +633,9 @@
   }
 
   .item_bubble7 {
-    width: 251px;
-    height: 80px;
-    top: 45em;
+    width: 280px;
+    height: 90px;
+    top: 46.1em;
     left: 4em;
   }
 
@@ -643,7 +643,7 @@
     display: inline-block;
     width: 26.63px;
     height: 37.33px;
-    top: 3.4em;
+    top: 4.8em;
     left: 12em;
   }
 
@@ -696,10 +696,10 @@
 
 
     #image44 {
-      width: 70%;
-      height: 70%;
+      width: 60%;
+      height: 60%;
       top: 1.5em;
-      right: 12em;
+      right: 18em;
       z-index: 401;
       position: absolute;
       justify-content: center;
@@ -723,12 +723,12 @@
 
   #image33 {
   position: absolute;
-  width: 70%;
-  height: 70%;
+  width: 60%;
+  height: 60%;
   justify-content: center;
   display: inline-block;
   top: 1.5em;
-  left: 11.5em;
+  left: 18em;
   z-index: 400;
   animation-name: image33;
   animation-duration: 1s;
@@ -756,7 +756,20 @@
     animation-play-state: paused;
   }
 
+  #telkoroleva {
+    width: 60%;
+    height: 60%;
+    top: 1.5em;
+    right: 22em;
+    z-index: 402;
+    position: absolute;
+    justify-content: center;
+    display: inline-block;
 
+    animation-name: image44;
+    animation-duration: 1s;
+    animation-play-state: paused;
+  }
 
 
 }
