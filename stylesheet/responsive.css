@@ -791,8 +791,8 @@
 
   #telkoroleva {
     position: absolute;
-    width: 58%;
-    height: 58%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     display: inline-block;
     align-items: center;
@@ -829,8 +829,8 @@
     justify-content: center;
     display: inline-block;
     align-items: center;
-    left: calc(50% - 20.5px);
-    top: calc(50% - 22px);
+    left: calc(50% - 28px);
+    top: calc(50% - 28px);
     z-index: 191;
     animation: chornayaladya 2s linear infinite;
     animation-play-state: paused;
