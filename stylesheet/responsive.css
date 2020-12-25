@@ -3,20 +3,29 @@
   .telshow{
     display: none;
   }
+  #chornayaladya {
+    display: none;
+  }
 
 }
 
   /* HD*/
 @media only screen and (min-width: 1920px)  {
-.telshow {
-  display: none;
-}
+    .telshow {
+      display: none;
+    }
+    #chornayaladya {
+      display: none;
+    }
 
 }
 
 
 @media only screen (min-width: 1680px) and (max-width: 1920px) {
 
+  #chornayaladya {
+    display: none;
+  }
 
 .bubbletext {
   font-size: 61px;
@@ -30,6 +39,10 @@
 
 /* Macbook Pro */
 @media only screen (min-width: 1440px) and (max-width: 1680px) {
+
+  #chornayaladya {
+    display: none;
+  }
 
   .bubbletext {
     font-size: 44px;
@@ -56,6 +69,10 @@
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
+
+  #chornayaladya {
+    display: none;
+  }
 
 .zhdyom {
   margin-left: 4.6em;
@@ -458,11 +475,6 @@
     display: none;
   }
 
-  #image1 {
-  width: 80%;
-  height: 80%;
-  }
-
   #chornayaladya {
     position: absolute;
     width: 100%
@@ -662,11 +674,19 @@
   }
 
   #image3 {
-  display: none;
+  width: 70%;
+  height: 70%;
+  top: 1.5em;
+  left: 11.5em;
+  z-index: 400;
   }
 
   #image4 {
-    display: none;
+    width: 70%;
+    height: 70%;
+    top: 1.5em;
+    left: 11.5em;
+    z-index: 401;
   }
 
   .chornayaladya {
