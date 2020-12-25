@@ -6,7 +6,14 @@
   #chornayaladya {
     display: none;
   }
-
+  .basmannaya {
+    position: relative;
+    width: 300px;
+    z-index: 17;
+    font-size: 1.1rem;
+    margin-left: 3.8em;
+    margin-top: 4.75em;
+  }
 }
 
   /* HD*/
@@ -394,8 +401,11 @@
     }
 
   .basmannaya {
-    font-size: 0.75rem;
+    font-size: 1.1rem;
+    margin-top: 5em;
+    margin-left: 3.8em;
   }
+
   .zhdyom {
     font-size: 1.5rem;
     margin-left: 7em;
@@ -771,7 +781,22 @@
     animation-play-state: paused;
   }
 
+  .basmannaya {
 
+    font-size: 1.1rem;
+
+  }
+
+  .phonenumber {
+
+    font-size: 1.1rem;
+
+  }
+
+  .zhdyom {
+
+    font-size:3rem;
+  }
 }
 
 
@@ -1088,11 +1113,12 @@
 
   .phonenumber {
     font-size: 12px;
-    margin-top: 200px;
+
   }
+
 .basmannaya {
   font-size: 12px;
-  margin-top: 2em;
+
 }
 
 }

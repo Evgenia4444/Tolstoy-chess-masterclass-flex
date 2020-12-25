@@ -568,6 +568,7 @@ animation-play-state: running;
   position: relative;
   width: 300px;
   z-index: 17;
+
 }
 
 .phonenumber {
@@ -578,6 +579,17 @@ animation-play-state: running;
   margin-left: 3.8em;
   margin-top: 2.4em;
 }
+.phonenumbertel {
+  font-size: 1.1rem;
+  position: relative;
+  width: 186px;
+  z-index: 534;
+  color: #222831;
+
+  margin-left: 1em;
+  margin-top: 2em;
+}
+
 .zhdyom {
   position: relative;
   width: 778px;
