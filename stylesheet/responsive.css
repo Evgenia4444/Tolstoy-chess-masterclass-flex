@@ -268,7 +268,7 @@
     width: 458px;
     height: 192px;
     top: 0;
-    left: 24em;
+    left: 16em;
   }
 
   .triangle1 {
@@ -283,7 +283,7 @@
     width: 256px;
     height: 97px;
     top: 17.96em;
-    left: 16em;
+    left: 9em;
   }
 
   .triangle2 {
@@ -294,13 +294,11 @@
     left: 11.85em;
   }
 
-
-
     .item_bubble3 {
       width: 256px;
       height: 96px;
-      top: 24.01em;
-      left: 33.5em;
+      top: 24em;
+      left: 26em;
     }
 
     .triangle3 {
@@ -316,7 +314,7 @@
       width: 536px;
       height: 192px;
       top: 36em;
-      left: 19.4em;
+      left: 12em;
     }
 
     .triangle4 {
@@ -331,7 +329,7 @@
       width: 537px;
       height: 192px;
       top: 48em;
-      left: 13.3em;
+      left: 5.97em;
     }
 
     .triangle5 {
@@ -346,14 +344,14 @@
       width: 404px;
       height: 96px;
       top: 59.99em;
-      left: 19.4em;
+      left: 12em;
     }
 
     .item_bubble7 {
       width: 535px;
       height: 149px;
       top: 65.96em;
-      left: 13.29em;
+      left: 5.97em;
     }
 
     .triangle7 {
