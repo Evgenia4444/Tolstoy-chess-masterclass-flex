@@ -65,7 +65,7 @@ body {
 
 .triangle1 {
   position: absolute;
-  left: 10px;
+  left: 4em;
   top: 17em;
   z-index: 19;
   display: inline-block;
