@@ -73,8 +73,8 @@ body {
 
 .triangle2 {
   position: absolute;
-  left: 18em;
-  top: 7em;
+  left: 16em;
+  top: 6.4em;
   z-index: 20;
   display: inline-block;
 }
