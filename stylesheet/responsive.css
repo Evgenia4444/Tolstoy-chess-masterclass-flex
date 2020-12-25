@@ -653,22 +653,20 @@
     display: none;
   }
 
-  .image1 {
+  #image1 {
   display: none;
   }
 
-  .image2 {
+  #image2 {
   display: none;
   }
 
-  .image3 {
-    width: 20%;
-    height: 20%;
+  #image3 {
+  display: none;
   }
 
-  .image4 {
-    width: 20%;
-    height: 20%;
+  #image4 {
+    display: none;
   }
 
   .chornayaladya {
