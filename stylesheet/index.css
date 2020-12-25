@@ -573,9 +573,15 @@ animation-play-state: running;
   position: relative;
   width: 186px;
   z-index: 18;
+  font-size: 1.1rem;
+  margin-left: 3.8em;
+  margin-top: 2.4em;
 }
 .zhdyom {
   position: relative;
   width: 778px;
   z-index: 100;
+  font-size: 3rem;
+  margin-left: 4.6em; 
+  margin-top: 0;
 }
