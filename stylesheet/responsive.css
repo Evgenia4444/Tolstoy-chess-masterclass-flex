@@ -14,6 +14,7 @@
     .telshow {
       display: none;
     }
+
     #chornayaladya {
       display: none;
     }
@@ -112,6 +113,10 @@
         display: none;
       }
 
+#chornayaladya {
+  display: none;
+}
+
       .littlesquares {
         width: 100%;
         height: 128px;
@@ -154,6 +159,11 @@
     .telshow {
       display: none;
     }
+
+    #chornayaladya {
+      display: none;
+    }
+
     #image33 {
       display: none;
     }
@@ -166,7 +176,21 @@
     font-size: 1.5rem;
     line-height: 1.2em;
     margin-top: 2em;
+    margin-left: 1.6em;
   }
+
+  .bubbletext2 {
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    margin-top: 1.5em;
+  }
+
+  .bubbletext3 {
+    font-size: 1.5rem;
+    line-height: 1.2em;
+    margin-top: 1.5em;
+  }
+
 
 .basmannaya {
   font-size: 12px;
@@ -465,7 +489,7 @@
 
 
   /* iPhone X */
-@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 480px) {
 
   .bubbletext {
     font-size: 2rem;
@@ -501,6 +525,11 @@
   #image1 {
     display: none;
   }
+
+  #image2 {
+    display: none;
+  }
+
 
   #chornayaladya {
     position: absolute;
@@ -541,12 +570,12 @@
 
   .littlesquares {
     width: 100vw;
-    height: 90px;
+    height: 100px;
   }
 
   .littlesquare {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
   }
 
   .item_bubble1 {
@@ -655,18 +684,18 @@
 
 
   .bigsquare {
-    width: 172.5px;
-    height: 172.5px;
+    width: 200px;
+    height: 200px;
   }
 
 .telbigsquares {
   width: 100%;
-  height: 172.5px;
+  height: 200px;
 }
 
   .telline1 {
     width: 100%;
-    height: 375px;
+    height: 400px;
 
     display: flex;
     flex-direction: row;
@@ -676,7 +705,7 @@
 
   .telline2 {
     width: 100%;
-    height: 320px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -685,7 +714,7 @@
 
   .lastsquares {
     width: 100%;
-    height: 80px;
+    height: 100px;
   }
 
   .bs {
@@ -762,13 +791,7 @@
     animation-play-state: paused;
   }
 
-  .last4,
-  .last5,
-  .last6,
-  .last7 {
-    width: 40px;
-    height: 40px;
-  }
+
 }
 
 
@@ -1059,24 +1082,8 @@
   100% {transform: rotate(360deg);}
   }
 
-  .chornayaladya {
-    position: absolute;
-    justify-content: center;
-    display: inline-block;
-    align-items: center;
-    left: calc(50% - 40px);
-    top: calc(50% - 40px);
-    animation: chornayaladya 2s linear infinite;
-    animation-play-state: paused;
-  }
 
-  .last4,
-  .last5,
-  .last6,
-  .last7 {
-    width: 40px;
-    height: 40px;
-  }
+
 
 
 
