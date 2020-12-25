@@ -173,7 +173,7 @@
     }
 
   .bubbletext {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     line-height: 1.2em;
     margin-top: 2em;
     margin-left: 1.6em;
@@ -268,7 +268,7 @@
     width: 458px;
     height: 192px;
     top: 0;
-    left: 16em;
+    left: 24em;
   }
 
   .triangle1 {
@@ -283,7 +283,7 @@
     width: 256px;
     height: 97px;
     top: 17.96em;
-    left: 10em;
+    left: 16em;
   }
 
   .triangle2 {
@@ -300,7 +300,7 @@
       width: 256px;
       height: 96px;
       top: 24.01em;
-      left: 26em;
+      left: 33.5em;
     }
 
     .triangle3 {
@@ -316,7 +316,7 @@
       width: 536px;
       height: 192px;
       top: 36em;
-      left: 11.94em;
+      left: 19.4em;
     }
 
     .triangle4 {
@@ -331,7 +331,7 @@
       width: 537px;
       height: 192px;
       top: 48em;
-      left: 5.92em;
+      left: 13.3em;
     }
 
     .triangle5 {
@@ -346,14 +346,14 @@
       width: 404px;
       height: 96px;
       top: 59.99em;
-      left: 12.001em;
+      left: 19.4em;
     }
 
     .item_bubble7 {
       width: 535px;
       height: 149px;
-      top: 66em;
-      left: 5.964em;
+      top: 65.96em;
+      left: 13.29em;
     }
 
     .triangle7 {
@@ -381,7 +381,10 @@
     width: 100vw;
     height: 192px;
   }
-
+.line2 {
+  width: 100vw;
+  height: 240px;
+}
     .bigsquare {
       width: 192px;
       height: 192px;
@@ -909,10 +912,10 @@
   }
 
   .item_bubble5 {
-    width: 251px;
-    height: 91px;
-    top: 22.9em;
-    left: 2.4em;
+    width: 340px;
+    height: 120px;
+    top: 33em;
+    left: 3.7em;
   }
 
   .triangle5 {
@@ -924,9 +927,9 @@
   }
 
   .item_bubble6 {
-    width: 177px;
-    height: 47px;
-    top: 28.09em;
+    width: 220px;
+    height: 60px;
+    top: 37em;
     left: 5em;
   }
 
