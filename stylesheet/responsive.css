@@ -424,21 +424,19 @@
 @media only screen and (min-width: 320px) and (max-width: 375px)  {
 
   .bubbletext {
-    font-size: 1rem;
-
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    margin-top: 1.8em;
+    margin-left: 1.3em;
   }
 
-  .bubbletext {
-  top: 1em;
-
+  .bubbletext2 {
+    margin-top: 1.4em;
   }
 
-  .bubbletext3 {
-  top: 1em;
-  line-height: 10px;
-  margin-left: 6px;
-  margin-top: 1px;
-  }
+.bubbletext3 {
+  margin-top: 1.4em;
+}
 
 .ls {
   display: none;
