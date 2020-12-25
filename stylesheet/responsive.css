@@ -673,20 +673,55 @@
   display: none;
   }
 
-  #image3 {
+
+    #image44 {
+      width: 70%;
+      height: 70%;
+      top: 1.5em;
+      right: 12em;
+      z-index: 401;
+      position: absolute;
+      justify-content: center;
+      display: inline-block;
+
+      animation-name: image44;
+      animation-duration: 1s;
+      animation-play-state: paused;
+    }
+
+    #image44:hover {
+      cursor: pointer;
+      animation-play-state: running;
+    }
+
+    @keyframes image44 {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    }
+
+
+  #image33 {
+  position: absolute;
   width: 70%;
   height: 70%;
+  justify-content: center;
+  display: inline-block;
   top: 1.5em;
   left: 11.5em;
   z-index: 400;
+  animation-name: image33;
+  animation-duration: 1s;
+  animation-play-state: paused;
   }
 
-  #image4 {
-    width: 70%;
-    height: 70%;
-    top: 1.5em;
-    left: 11.5em;
-    z-index: 401;
+  #image33:hover {
+    cursor: pointer;
+    animation-play-state: running;
+  }
+
+  @keyframes image33 {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
   }
 
   .chornayaladya {
