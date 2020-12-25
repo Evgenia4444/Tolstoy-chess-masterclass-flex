@@ -465,8 +465,8 @@
 
   #telkoroleva {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     display: inline-block;
     align-items: center;
@@ -498,13 +498,13 @@
 
   #chornayaladya {
     position: absolute;
-    width: 100%
-    height: 100%
+    width: 60%;
+    height: 60%;
     justify-content: center;
     display: inline-block;
     align-items: center;
-    left: calc(50% - 20.5px);
-    top: calc(50% - 22px);
+    left: calc(50% - 40px);
+    top: calc(50% - 32px);
     z-index: 191;
     animation: chornayaladya 2s linear infinite;
     animation-play-state: paused;
@@ -776,8 +776,11 @@
 
 
   /* iPhone X */
-@media only screen and (min-width: 375px) and (max-width: 480px) {
+@media only screen and (min-width: 389px) and (max-width: 480px) {
 
+.koroleva {
+  display: none;
+}
   .bubbletext {
     font-size: 1.1rem;
     line-height: 1.1rem;
